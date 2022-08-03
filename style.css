@@ -1,0 +1,38 @@
+body {
+  font-family: 'Cinzel', serif;
+  font-family: 'Fredoka', sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.btn-success:hover {
+  border-color: green;
+}
+
+.bb {
+  font-size: 24px;
+}
+
+.gb {
+  font-size: 18px;
+  margin-top:30px;
+}
+
+canvas {
+   animation-name: filter-app;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+   border-radius: 6px;
+   margin-top: 85px;
+}
+
+@keyframes filter-app {
+  from{box-shadow: 1px 1px 52px red;}
+  to{box-shadow: 1px 1px 52px blue;}
+}
+
+
